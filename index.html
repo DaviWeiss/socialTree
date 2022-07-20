@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./styles/index.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+    <title>Social tree</title>
+    <script src="./index.js"></script>
+</head>
+
+<body>
+    <main class="flex-collumn">
+        <div class="flex-collumn header-social">
+            <img src="" alt="Imagem de perfil" id="img-profile">
+            <a onclick="sendLinks('instagram')">@davi_weiss_</a>
+        </div>
+        <div class="links flex-collumn">
+            <a class="link flex-row" onclick="sendLinks('portifolio')">
+                Meu portifólio
+            </a>
+            <a class="link flex-row" onclick="sendLinks('github')">
+                GitHub
+            </a>
+            <a class="link flex-row" onclick="sendLinks('linkedin')">
+                Linkedin
+            </a>
+            <a class="link flex-row" onclick="sendLinks('wpp')">
+                Fale comigo
+            </a>
+        </div>
+
+        <div class="links-fim">
+            <a onclick="sendLinks('twitter')">
+                <img src="./assets/imgs/twitter.svg" alt="Imagem twitter">
+            </a>
+            <a onclick="sendLinks('wpp')">
+                <img src="./assets/imgs/twitch.svg" alt="Imagem conversa">
+            </a>
+            <a onclick="sendLinks('instagram')">
+                <img src="./assets/imgs/instagram.svg" alt="Imagem instagram">
+            </a>
+            <a onclick="sendLinks('linkedin')">
+                <img src="./assets/imgs/linkedin.svg" alt="Imagem linkedin">
+            </a>
+            <a onclick="sendLinks('github')">
+                <img src="./assets/imgs/github.svg" alt="Imagem github">
+            </a>
+        </div>
+    </main>
+
+</body>
+
+</html>
